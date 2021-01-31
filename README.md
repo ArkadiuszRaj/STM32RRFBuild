@@ -1,4 +1,4 @@
-# STM32RRFBuild
+# STM32 RRF Build
 This repository contains the build system for the STM32 port of RRF V3.2 and later.
 It allows creation of the firmware package for variety of the STM32 chips, supported by the STM32duino' Arduino Core library.
 
@@ -23,3 +23,5 @@ You need to clone following repositories into root folder of this cloned repo.
 Please run ./buid.sh script. 
 
 It will go through all folders, eventually clone repositories and set proper branches. When cloned repo exists, it will try to fetch latest changes automatically. After ensuring all code is refreshed, it will start exeuting several cmake command to build libraries and finally firmware file.
+
+Script uses ncurses menu system to allow selection of the board, sbc or esp8266 access types.
