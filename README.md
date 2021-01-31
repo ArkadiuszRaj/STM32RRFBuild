@@ -16,3 +16,10 @@ You need to clone following repositories into root folder of this cloned repo.
 5. Support libraries for RRF https://github.com/gloomyandy/RRFLibraries.git
 
 6. Wifi interface https://github.com/gloomyandy/DuetWiFiSocketServer
+
+
+## Building 
+
+Please run ./buid.sh script. 
+
+It will go through all folders, eventually clone repositories and set proper branches. When cloned repo exists, it will try to fetch latest changes automatically. After ensuring all code is refreshed, it will start exeuting several cmake command to build libraries and finally firmware file.
