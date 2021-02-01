@@ -18,6 +18,9 @@ You need to clone following repositories into root folder of this cloned repo.
 6. Wifi interface https://github.com/gloomyandy/DuetWiFiSocketServer
 
 
+Additionally a gnu toolchain for Cortex-M is needed. This can be downloaded from:
+https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads
+
 ## Building 
 
 Please run ./buid.sh script. 
